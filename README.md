@@ -1,4 +1,6 @@
-# Ember-occludable-components
+# ember-occludable-components
+
+Components which help in occlusion culling using ember-spaniel. Inspired by smoke-and-mirrors.
 
 This README outlines the details of collaborating on this Ember addon.
 
@@ -24,3 +26,4 @@ This README outlines the details of collaborating on this Ember addon.
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+=======
