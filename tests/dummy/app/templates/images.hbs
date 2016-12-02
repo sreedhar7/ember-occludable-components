@@ -1,0 +1,16 @@
+<div class="content">
+  <div class="image-container">
+    <img src='http://placehold.it/800x300' alt='image 1'/>
+  </div>
+  {{#occludable-area hintClassName="occludable-image" rootMarginBottomBuffer=200 occlusionEnabled=true}}
+    <div class="image-container">
+      <img src='http://placehold.it/800x300' alt='image 2'/>
+    </div>
+  {{/occludable-area}}
+
+  {{#occludable-area hintClassName="occludable-image" rootMarginBottomBuffer=200 occlusionEnabled=true}}
+    <div class="image-container">
+      <img src='http://placehold.it/800x300' alt='image 3'/>
+    </div>
+  {{/occludable-area}}
+</div>

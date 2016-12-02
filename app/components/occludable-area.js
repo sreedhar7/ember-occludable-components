@@ -1,0 +1,1 @@
+export { default } from 'ember-occludable-components/components/occludable-area';

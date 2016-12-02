@@ -1,0 +1,9 @@
+.image-container {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  height: 500px;
+}
+.occludable-image {
+  min-height: 200px;
+}
