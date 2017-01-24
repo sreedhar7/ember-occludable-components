@@ -1,7 +1,7 @@
 {
   "name": "ember-occludable-components",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Occludable components for Ember.",
   "directories": {
     "doc": "doc",
     "test": "tests"

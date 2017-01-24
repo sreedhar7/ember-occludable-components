@@ -68,6 +68,11 @@ export default Ember.Component.extend({
     this._super(...args);
     if (this.isRendered) {
       this.$().removeClass(this.get('hintClassName'));
+
+      const classNames = this.get('classNames').join(' ');
+      if (classNames) {
+        this.$().addClass(classNames);
+      }
     }
   },
 
@@ -76,17 +81,13 @@ export default Ember.Component.extend({
   },
 
   _getViewportOptions() {
-    if (this.get('rootMarginBottomBuffer')) {
-      return {
-        rootMargin: {
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom:  -1 * this.get('rootMarginBottomBuffer')
-        }
-      };
-    } else {
-      return undefined;
-    }
-  }
+    return {
+      rootMargin: {
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: -1 * this.get('rootMarginBottomBuffer'),
+      },
+    };
+  },
 });
