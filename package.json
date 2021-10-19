@@ -11,7 +11,10 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": {	
+    "type": "git",
+    "url": "https://github.com/sreedhar7/ember-occludable-components.git"
+  },
   "engines": {
     "node": ">= 0.12.0"
   },
